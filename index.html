@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-HAFTA</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="title"> Anketa:</h1>
+        <hr class="custom-hr"/>
+        <form>
+            <section class="section">
+                <h2 class="section-title">Mijoz Ism familyasi</h2>
+                <div class="input-group">
+                    <div class="custom-input">
+                        <input type="text" id="name" class="form-input">
+                        <label for="name" class="custom-label">Ismingizni kiriting</label>
+                    </div>
+                    <div class="custom-input">
+                        <input type="text"  id="surname" class="form-input">
+                        <label for="surname" class="custom-label">Familyangizni kiriting</label>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Manzil</h2>
+                <div class="custom-fullinput">
+                    <input type="text"  id="street" class="form-input">
+                    <label for="street" class="custom-label">Ko'cha nomi </label>
+                </div>
+                <div class="custom-input">
+                    <input type="text"  id="district" class="form-input">
+                    <label for="district" class="custom-label">Shahar</label>
+                </div>
+
+                <div class="input-group">
+                    <div class="custom-input">
+                        <input type="text"  id="postalcode" class="form-input">
+                        <label for="postalcode" class="custom-label">Pochta indeksi</label>
+                    </div>
+                    <div class="custom-input">
+                        <select class="form-input" name="region" required>
+                            <option value="Toshkent">Toshkent</option>
+                            <option value="Toshkent viloyati">Toshkent Viloyati</option>
+                            <option value="Qoraqalpog'iston">Qoraqalpog'iston</option>
+                            <option value="Xorazm">Xorazm</option>
+                            <option value="Navoiy">Navoiy</option>
+                            <option value="Buxoro">Buxoro</option>
+                            <option value="Qashqadaryo">Qashqadaryo</option>
+                            <option value="Surxondaryo">Surxondaryo</option>
+                            <option value="Samarqand">Samarqand</option>
+                            <option value="Jizzax">Jizzax</option>
+                            <option value="Namangan">Namangan</option>
+                            <option value="Andijon">Andijon</option>
+                            <option value="Fargane">Farg'ona</option>
+                          </select>
+                        <label for="region" class="custom-label">Viloyatni tanlang</label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Bog'lanish</h2>
+                <div class="input-group">
+                    <div class="custom-input">
+                        <input type="text" id="phone" class="form-input">
+                        <label for="phone" class="custom-label">Telefon raqam</label>
+                    </div>
+                    <div class="custom-input">
+                        <input type="email"  id="email" class="form-input">
+                        <label for="email" class="custom-label">Email</label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Shaxsiy malumotlar</h2>
+                <label class="label"><input type="radio" name="gender"> Erkak</label>
+                <label class="label"><input type="radio" name="gender"> Ayol</label>
+                <label class="label"><input type="radio" name="gender"> Boshqa</label>
+            </section>
+            
+            <section class="section">
+                <h2 class="section-title">Baholash</h2>
+                <div class="input-group">
+                    <div class="custom-input-service">
+                        <p class="service-title">Mehmonxona xizmati:</p>
+                        <label ><input type="radio" name="service1"> Yomon</label>
+                        <label ><input type="radio" name="service1"> Yaxshi</label>
+                        <label ><input type="radio" name="service1"> Ajoyib</label> 
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="custom-input-service">
+                        <p class="service-title">Xodimlar xizmati:</p>
+                        <label ><input type="radio" name="service2"> Yomon</label>
+                        <label ><input type="radio" name="service2"> Yaxshi</label>
+                        <label ><input type="radio" name="service2"> Ajoyib</label> 
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="custom-input-service">
+                        <p class="service-title">Ovqatlar :</p>
+                        <label ><input type="radio" name="service3"> Yomon</label>
+                        <label ><input type="radio" name="service3"> Yaxshi</label>
+                        <label ><input type="radio" name="service3"> Ajoyib</label> 
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="custom-input-service">
+                        <p class="service-title">Servis xizmati:</p>
+                        <label ><input type="radio" name="service4"> Yomon</label>
+                        <label ><input type="radio" name="service4"> Yaxshi</label>
+                        <label ><input type="radio" name="service4"> Ajoyib</label> 
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="custom-input-service">
+                        <p class="service-title">Internet sifati:</p>
+                        <label ><input type="radio" name="service5"> Yomon</label>
+                        <label ><input type="radio" name="service5"> Yaxshi</label>
+                        <label ><input type="radio" name="service5"> Ajoyib</label> 
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="custom-input-service">
+                        <p class="service-title">Xonaning tozaligi:</p>
+                        <label ><input type="radio" name="service6"> Yomon</label>
+                        <label ><input type="radio" name="service6"> Yaxshi</label>
+                        <label ><input type="radio" name="service6"> Ajoyib</label> 
+                    </div>
+                </div>
+
+            </section>
+            <div class="button">
+                <button type="submit" class="btn">Yuborish</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
